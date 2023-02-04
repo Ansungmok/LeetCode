@@ -3,8 +3,8 @@ import datetime
 import pyupbit as pb
 import time
 
-access_key='rxUYjasRKNRuBwcuxv9ZBxfunCNBgkQI4Dnaj38U'
-secret_key="xELGSbu1BcUXNfGRbxg6QLmgL5cFlnNLZx0qViBQ"
+access_key='my_access_key'
+secret_key="my_secret_key"
 upbit=pb.Upbit(access_key,secret_key)
 
 ticker='KRW-ETH'
